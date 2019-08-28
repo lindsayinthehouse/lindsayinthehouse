@@ -42,15 +42,28 @@ body {
 }
 
 h1 {
+  /*
+  This font looked different in different browsers so now it's a png instead.
   font-family: 'Fredericka the Great', Georgia, 'Times New Roman', Times, serif;
+  */
   font-size: 7rem;
   line-height: 7rem;
+}
+
+h1 img {
+  display: block;
+  width: auto;
+  height: 14rem;
 }
 
 @media (max-width: 570px) {
   h1 {
     font-size: 4rem;
     line-height: 4rem;
+  }
+
+  h1 img {
+    height: 8rem;
   }
 }
 
