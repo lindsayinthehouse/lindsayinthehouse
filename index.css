@@ -112,7 +112,7 @@ li::before {
   margin-top: .5rem;
 }
 
-/* Background image. */
+/* Responsive background image and other tweaks. */
 
 /* Desktop. */
 @media (min-width: 850px) {
@@ -142,13 +142,10 @@ li::before {
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 60%; /* Relative to body width */
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
-  li::before {
-    left: -.6rem;
-  }
 }
 
 /* Handhelds @2x */
@@ -158,5 +155,22 @@ li::before {
 {
   body {
     background-image: url('assets/lindsay-small@2x.jpg');
+  }
+}
+
+
+/* Narrow handhelds */
+@media (max-width: 449px) {
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  li::before {
+    left: -.6rem;
+  }
+
+  .poster-list {
+    margin-left: 1rem;
   }
 }
