@@ -1,6 +1,149 @@
+/* Reset. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+/* Setup. */
+
+html {
+  /* Set up 1rem to be one vertical rhythm unit (14px = .875 * 16px). */
+  font-size: 87.5%;
+}
+
 body {
+  font-size: 1.285714286rem; /* Default font size is 18px */
+  line-height: 2rem;
+  font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   color: #333;
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  padding-top: 100px;
+}
+
+b {
+  font-weight: 700;
+}
+
+/* Design. */
+
+body {
+  padding: 4rem;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', Georgia, 'Times New Roman', Times, serif;
+  font-size: 7rem;
+  line-height: 7rem;
+}
+
+@media (max-width: 570px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+main {
+  max-width: 33rem;
+}
+
+#resume {
+  margin-top: 3rem;
+}
+
+/* Bullet points. */
+li {
+  position: relative;
+}
+
+li:not(:first-child) {
+  margin-top: .5rem;
+}
+
+li::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  left: -1rem;
+  top: .9rem;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3csvg width='4' height='4' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='3' cy='1' r='2' transform='translate(-1 1)' fill='%23BFBFBF' fill-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+/* Poster list. */
+.poster-list {
+  margin-left: 2rem;
+}
+
+.poster-name {
+  margin-top: .5rem;
+}
+
+/* Background image. */
+
+/* Desktop. */
+@media (min-width: 850px) {
+  body {
+    background-image: url('assets/lindsay.jpg');
+    background-position: 21rem 0;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Desktop @2x */
+@media
+  (min-width: 850px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 850px) and (min-resolution: 192dpi)
+{
+  body {
+    background-image: url('assets/lindsay@2x.jpg');
+    background-size: 1107px;
+  }
+}
+
+/* Handhelds */
+@media (max-width: 849px) {
+  body {
+    background-image: url('assets/lindsay-small.jpg');
+    background-position: top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 60%; /* Relative to body width */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  li::before {
+    left: -.6rem;
+  }
+}
+
+/* Handhelds @2x */
+@media
+  (max-width: 849px) and (-webkit-min-device-pixel-ratio: 2),
+  (max-width: 849px) and (min-resolution: 192dpi)
+{
+  body {
+    background-image: url('assets/lindsay-small@2x.jpg');
+  }
 }
