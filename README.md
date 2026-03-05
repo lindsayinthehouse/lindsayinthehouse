@@ -10,6 +10,18 @@ I'm currently a Postdoctoral Preceptor at the University of Chicago Data Science
 
 The passion behind all my work is making cutting-edge astrophysics accessible and digestible to the general public, in a way that brings out the inner kid in all of us. 
 
+## Let's Connect! 
+
+I love connecting with people who share my excitement about space, science education, or just want to chat about the universe. You can find me at:
+
+- 🌟 **Visit my website**: [https://lindsay.house](https://lindsay.house)
+- 🌟**Email**: dr.lindsayinthehouse@gmail.com
+- 🌟**Instagram**: [@dr.LindsayintheHouse](https://www.instagram.com/dr.lindsayinthehouse/)
+- 🌟**YouTube**: [Dr.LindsayintheHouse](https://www.youtube.com/@dr.lindsayinthehouse)
+- 🌟**LinkedIn**: [lindsayhouse](https://www.linkedin.com/in/lindsayhouse/)
+- 🌟**GitHub**: [lindsayinthehouse](https://github.com/lindsayinthehouse)
+
+
 ## What You'll Find Here
 
 ### My Research Journey
@@ -43,14 +55,6 @@ If you're ever planning a trip to Asheville, definitely ask me for recommendatio
 The coolest thing about Dark Energy Explorers is that when you participate, you're literally the first person to see these galaxies, stars, meteors, and black holes! It's like being an explorer in the truest sense.
 
 **Ready to become a Dark Energy Explorer?** → [Get Started Here](https://www.zooniverse.org/projects/erinmc/dark-energy-explorers)
-
-## Let's Connect!
-
-I love connecting with people who share my excitement about space, science education, or just want to chat about the universe. You can find me at:
-
-- **Email**: lindsay.r.house@gmail.com
-- **LinkedIn**: [lindsayhouse](https://www.linkedin.com/in/lindsayhouse/)
-- **GitHub**: [lindsayinthehouse](https://github.com/lindsayinthehouse)
 
 ## A Note About This Website
 
